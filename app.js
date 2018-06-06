@@ -4,7 +4,7 @@ function Person(p) {
 	this.fn = p.firstn;
 	this.ln = p.lastn;
 }
-
+/*t*/
 Person.prototype.gr = function () {
 	console.log('Hello, ' + this.cs + ' ' + this.fn + ' ' + this.ln);
 }
